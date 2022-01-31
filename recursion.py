@@ -6,7 +6,7 @@
 def countdown(number):
 	global number_list
 	
-	if number > 1:
+	if number >= 1:
 		number_list.append(number)
 		number -= 1
 		countdown(number)
